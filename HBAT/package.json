@@ -2,11 +2,14 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://prometheon-technologies.github.io/HBAT-Website",
   "scripts": {
     "mock": "json-server --watch db.json --port 4000 --routes routes.json",
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -37,6 +40,7 @@
     "@vitejs/plugin-react": "^1.3.0",
     "sass": "^1.54.2",
     "typescript": "^4.6.3",
-    "vite": "^2.9.2"
+    "vite": "^2.9.2",
+    "gh-pages": "^4.0.0"
   }
 }
