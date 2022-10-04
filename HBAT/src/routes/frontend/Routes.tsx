@@ -12,7 +12,7 @@ const AppRoutes = () => {
   return (
     <BrowserRouter basename={`/${end_point}`}>
       <Routes>
-        <Route path="" element={<AntxChatDesign01 />} />
+        <Route path="/" element={<AntxChatDesign01 />} />
         <Route path="/home" element={<AntxChatDesign01 />} />
         <Route path="/white-papers" element={<AntxChatDesign02 />} />
       </Routes>
