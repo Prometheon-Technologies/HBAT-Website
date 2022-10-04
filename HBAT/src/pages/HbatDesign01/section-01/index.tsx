@@ -3,7 +3,11 @@ import { gsap } from "gsap/all";
 import { useEffect, useRef, useState } from "react";
 import { Caresol } from "../caresol";
 
-var end_point: ImportMetaEnv = { PUBLIC_URL: "HBAT-Website" };
+import.meta.env = {
+  PUBLIC_URL: "HBAT-Website"
+};
+
+var end_point = import.meta.env.PUBLIC_URL;
 export function Section01(props) {
   useEffect(() => {
     let tl = gsap.timeline();
@@ -140,7 +144,7 @@ export function Section01(props) {
                   >
                     <div className="header-title-logo">
                       <a
-                        href={`/${end_point.PUBLIC_URL}`}
+                        href={`/${end_point}`}
                         data-animation-role="header-element"
                         className="preSlide slideIn"
                         style={{
@@ -162,7 +166,7 @@ export function Section01(props) {
                       <nav className="header-nav-list">
                         <div className="header-nav-item header-nav-item--collection">
                           <a
-                            href={`/${end_point.PUBLIC_URL}/white-papers`}
+                            href={`/${end_point}/white-papers`}
                             data-animation-role="header-element"
                             className="preSlide slideIn"
                             style={{
@@ -176,7 +180,7 @@ export function Section01(props) {
                         </div>
                         <div className="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
                           <a
-                            href={`/${end_point.PUBLIC_URL}`}
+                            href={`/${end_point}`}
                             data-animation-role="header-element"
                             aria-current="page"
                             className="preSlide slideIn"
@@ -267,7 +271,7 @@ export function Section01(props) {
                   >
                     <div className="header-title-logo">
                       <a
-                        href={`/${end_point.PUBLIC_URL}`}
+                        href={`/${end_point}`}
                         data-animation-role="header-element"
                         className="preSlide slideIn"
                         style={{
@@ -289,7 +293,7 @@ export function Section01(props) {
                       <nav className="header-nav-list">
                         <div className="header-nav-item header-nav-item--collection">
                           <a
-                            href={`/${end_point.PUBLIC_URL}/white-papers`}
+                            href={`/${end_point}/white-papers`}
                             data-animation-role="header-element"
                             className="preSlide slideIn"
                             style={{
@@ -303,7 +307,7 @@ export function Section01(props) {
                         </div>
                         <div className="header-nav-item header-nav-item--collection header-nav-item--active header-nav-item--homepage">
                           <a
-                            href={`/${end_point.PUBLIC_URL}`}
+                            href={`/${end_point}`}
                             data-animation-role="header-element"
                             aria-current="page"
                             className="preSlide slideIn"
@@ -394,7 +398,7 @@ export function Section01(props) {
                   {/* Menu Navigation */}
                   <div className="header-menu-nav-folder-content">
                     <div className="container header-menu-nav-item header-menu-nav-item--collection">
-                      <a href={`/${end_point.PUBLIC_URL}/white-papers`}>
+                      <a href={`/${end_point}/white-papers`}>
                         <div className="header-menu-nav-item-content">
                           White Papers
                         </div>
@@ -428,7 +432,7 @@ export function Section01(props) {
                       <a
                         className="header-menu-controls-control header-menu-controls-control--active"
                         data-action="back"
-                        href={`/${end_point.PUBLIC_URL}`}
+                        href={`/${end_point}`}
                         tabIndex={-1}
                       >
                         <span>Back</span>

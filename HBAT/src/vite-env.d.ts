@@ -1,9 +1,9 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-    readonly PUBLIC_URL: string;
+    PUBLIC_URL: string;
 }
 
 interface ImportMeta {
-    readonly env: ImportMetaEnv;
+    env: ImportMetaEnv;
 }
