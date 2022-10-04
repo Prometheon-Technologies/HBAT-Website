@@ -21174,11 +21174,15 @@ body:not(.tweak-events-stacked-ical-gcal-links) .event-meta-addtocalendar-contai
   width: calc(100% - 2 * 0px);
   max-width: 100%;
 }
+
+
 .user-items-list-carousel[data-layout-width="full"] .user-items-list-carousel__gutter,
 .user-items-list-carousel[data-layout-width="full"] .arrows-bottom-wrapper {
-  /* padding-left: 6vw; */
-  /* padding-right: 6vw; */
+  padding-left: 6vw;
+  padding-right: 6vw;
 }
+
+
 .user-items-list-carousel[data-layout-width="full"][data-show-adjacent-slides="true"]
   .user-items-list-carousel__arrow-wrapper {
   width: calc(100% - 2 * 6vw);
