@@ -1,9 +1,9 @@
 /// <reference types="vite/client" />
 
-interface ImportMetaEnv {
+interface DOMAIN_URL {
     PUBLIC_URL: string;
 }
 
 interface ImportMeta {
-    env: ImportMetaEnv;
+    domain_url: DOMAIN_URL;
 }

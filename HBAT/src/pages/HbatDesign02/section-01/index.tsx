@@ -2,11 +2,11 @@ import useWindowSize from "@rehooks/window-size";
 import { gsap } from "gsap/all";
 import { useEffect, useRef, useState } from "react";
 
-import.meta.env = {
-  PUBLIC_URL: "HBAT-Website",
+import.meta.domain_url = {
+  PUBLIC_URL: "HBAT-Website"
 };
 
-var end_point = import.meta.env.PUBLIC_URL;
+var end_point = import.meta.domain_url.PUBLIC_URL;
 export function Section01(props) {
   useEffect(() => {
     let tl = gsap.timeline();
