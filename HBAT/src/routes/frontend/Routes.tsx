@@ -4,11 +4,11 @@ import AntxChatDesign02 from '../../pages/HbatDesign02';
 
 const AppRoutes = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/HBAT-Website">
       <Routes>
         <Route path="/" element={<AntxChatDesign01 />} />
         <Route path="/home" element={<AntxChatDesign01 />} />
-        <Route path="/white-papers" element={<AntxChatDesign02/>} />
+        <Route path="/white-papers" element={<AntxChatDesign02 />} />
       </Routes>
     </BrowserRouter>
   );
