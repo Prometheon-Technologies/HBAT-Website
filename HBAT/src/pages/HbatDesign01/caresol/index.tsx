@@ -1,4 +1,3 @@
-
 export function Caresol() {
   return (
     <section>
@@ -63,24 +62,10 @@ export function Caresol() {
           <h2>Residential</h2>
           <p>longevity, heat &amp; power</p>
         </li>
-        <button className="prev"><img src="assets/images/left_arrow-removebg-preview.png" alt="" /></button>
-        <button className="next"><img src="assets/images/right_arrow-removebg-preview.png" alt="" /></button>
+        <button className="prev"><img src="/images/left_arrow-removebg-preview.png" alt="" /></button>
+        <button className="next"><img src="/images/right_arrow-removebg-preview.png" alt="" /></button>
       </div>
     </section>
 
   )
 }
-
-
-
-{/* <div className="box">1</div>
-        <div className="box">2</div>
-        <div className="box">3</div>
-        <div className="box">4</div>
-        <div className="box">5</div>
-        <div className="box">6</div>
-        <div className="box">7</div>
-        <div className="box">8</div>
-        <div className="box">9</div>
-        <div className="box">10</div>
-        <div className="box">11</div> */}
