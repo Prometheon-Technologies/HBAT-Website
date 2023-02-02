@@ -5,7 +5,7 @@ function AntxChatDesign01() {
     <>
       <Section01 />
     </>
-  )
+  );
 }
 
 export default AntxChatDesign01;

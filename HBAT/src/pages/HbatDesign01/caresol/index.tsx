@@ -62,10 +62,13 @@ export function Caresol() {
           <h2>Residential</h2>
           <p>longevity, heat &amp; power</p>
         </li>
-        <button className="prev"><img src="/images/left_arrow-removebg-preview.png" alt="" /></button>
-        <button className="next"><img src="/images/right_arrow-removebg-preview.png" alt="" /></button>
+        <button className="prev">
+          <img src="/images/left_arrow-removebg-preview.png" alt="" />
+        </button>
+        <button className="next">
+          <img src="/images/right_arrow-removebg-preview.png" alt="" />
+        </button>
       </div>
     </section>
-
-  )
+  );
 }
